@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data / outputs
+*.parquet
+*.duckdb
+/tmp/
+output/
+_local/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
