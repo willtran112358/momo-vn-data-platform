@@ -132,6 +132,8 @@ The platform exists to turn product activity into decisions. A few real MoMo sur
   <img src="docs/assets/product/momo-brand-media.webp" alt="MoMo brand media" width="100%"/>
 </p>
 
+Full product-portfolio → data-platform map (with product evolution timeline and per-product data products): [`docs/09-product-portfolio-data-map.md`](docs/09-product-portfolio-data-map.md).
+
 | Product surface | Example events | Primary consumer |
 |-----------------|----------------|------------------|
 | **Payments / Transfers** | `transfer_initiated`, `qr_scanned`, `payment_settled` | Risk, Finance, Product |
@@ -452,6 +454,7 @@ momo-vn-data-platform/
 │   ├── 06-data-quality-framework.md
 │   ├── 07-cost-finops.md
 │   ├── 08-team-org-roles.md
+│   ├── 09-product-portfolio-data-map.md  ← product portfolio ↔ data platform (mermaid)
 │   └── assets/product/                ← MoMo brand/product images (educational)
 ├── samples/
 │   ├── ingestion/                     ← CDC + batch JDBC
